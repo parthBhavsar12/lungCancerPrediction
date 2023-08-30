@@ -52,7 +52,7 @@ form input[type="password"]:focus, form input[type="text"]:focus, form input[typ
 
 form input[type="submit"] {
     background-color: var(--btnBackground);
-    color: white;
+    color: var(--btnColor);
     border: none;
     border-radius: 2px;
     padding: 0.5em 5em;
@@ -123,4 +123,8 @@ h2.heading{
     .imageView img{
         padding-right: 15vh;
     }
+}
+
+.formItem .signUpBtn{
+    padding: 0.5em 4.5em;
 }
