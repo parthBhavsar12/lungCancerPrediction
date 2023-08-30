@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-  --primaryBg: white;
+  --primaryBackground: white;
   --secondaryBackground: rgb(224 233 255);
   --btnBackground: #487eb2;
   --headingColor: #205384;
