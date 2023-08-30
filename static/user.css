@@ -1,0 +1,126 @@
+body {
+    background-color: var(--secondaryBackground);
+}
+
+.container {
+    background-color: var(--primaryBg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* width: 70vw; */
+    /* height: 70vh; */
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    box-shadow: 7px 7px 7px rgb(171, 170, 170);
+    /* padding: 15vh; */
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.formView,
+.imageView {
+    padding: 1vh;
+}
+
+.formView {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageView img {
+    height: 40vh;
+    width: 25vw;
+}
+
+.formLabel{
+    color: var(--headingColor);
+    font-size: 0.75em;
+}
+
+form input[type="password"], form input[type="text"], form input[type="email"] {
+    border: none;
+    border-bottom: 1px solid var(--headingColor)  !important;
+}
+
+form input[type="password"]:focus, form input[type="text"]:focus, form input[type="email"]:focus{
+    outline: none;
+    border: none;
+}
+
+form input[type="submit"] {
+    background-color: var(--btnBackground);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5em 5em;
+    cursor: pointer;
+}
+
+form .formItem {
+    margin: 5px;
+    padding: 5px;
+}
+
+i{
+    padding-right: 0.5em;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .formView,
+    .imageView {
+        padding: 5vh;
+    }
+
+    .imageView img {
+        height: 40vh;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+       box-shadow: none;
+        width: 90vw;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .imageView img {
+        height: 40vh;
+        width: 40vw;
+    }
+}
+
+h2.heading{
+    margin: 1em auto;
+    color: var(--headingColor);
+}
+
+.note{
+    font-size: 0.75em;
+}
+
+.note a{
+    text-decoration: none;
+    color: var(--headingColor);
+}
+
+.note a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(24, 3, 71);
+}
+
+@media screen and (min-width: 1000px){
+    .imageView img{
+        padding-right: 15vh;
+    }
+}

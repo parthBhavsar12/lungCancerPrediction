@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --primaryBg: white;
+  --secondaryBackground: rgb(224 233 255);
+  --btnBackground: #487eb2;
+  --headingColor: #205384;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}

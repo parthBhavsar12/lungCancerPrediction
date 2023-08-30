@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In at Lung Cancer Prediction Website</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/user.css">
+
+    <!-- <link rel="stylesheet" href="path/to/material-design-iconic-font/css/material-design-iconic-font.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <style>
+        .container{
+            margin-top: 17vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imageView">
+            <img src="../static/doctor_img.avif" alt="doodle image">
+        </div>
+        <div class="formView">
+            <h2 class="heading">Log In</h2>
+            <form action="/home">
+                <div class="formItem formLabel"><i class="zmdi zmdi-email"></i><label for="email">Email</label></div>
+                <div class="formItem"><input type="email" id="email" title="Enter email id here" placeholder="Enter Email Id"></div>
+                <div class="formItem formLabel"><i class="zmdi zmdi-key"></i><label for="password">Password</label></div>
+                <div class="formItem"><input type="password" id="password" title="Enter password here" placeholder="Enter Password"></div>
+                <div class="formItem"><input type="submit" title="Click here to login" value="Log In"></div>
+                <div class="formItem note">Not an user?&nbsp;<a href="/signup" title="Click here to register">Register here</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
