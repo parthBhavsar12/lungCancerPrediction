@@ -7,5 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 .idea
-__pychche__
+/__pychche__
 *.md
+*.ini
+/flask_session
